@@ -1,8 +1,16 @@
+import '../css/Home.css';
+
 const Home = () => {
     return (
-        <div>
-            <h1>홈</h1>
-            <p>가장 먼저 보여지는 페이지입니다.</p>
+        <div className="wrapper">
+            <div className="navbar">
+                <span>홈</span>
+            </div>
+            <div className="content">
+                <button style={{border: "1px solid gray", backgroundColor: "white", padding: 10}}>
+                    시작하기
+                </button>
+            </div>
         </div>
     );
 };

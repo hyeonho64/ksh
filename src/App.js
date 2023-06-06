@@ -1,6 +1,6 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
+import {Route, Routes} from 'react-router-dom';
 import './font.css';
+import './global.css';
 import About from './pages/About';
 import Home from './pages/Home';
 import NotFound from "./pages/NotFound";
