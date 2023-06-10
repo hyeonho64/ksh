@@ -2,7 +2,6 @@ const NotFound = () => {
     return (
         <div
             style={{
-                fontFamily: 'NanumSquare',
                 padding: 30
             }}>
             <div style={{
@@ -22,8 +21,7 @@ const NotFound = () => {
                         border: "1px solid gray",
                         borderRadius: "5px",
                         padding: "7px",
-                        fontWeight: "bold",
-                        fontFamily: "NanumSquare"
+                        fontWeight: "bold"
                     }}>새로고침
                 </button>
             </a>
