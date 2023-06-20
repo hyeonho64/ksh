@@ -172,8 +172,8 @@ export default {
 <style>
 #game-board {
   position: relative;
-  width: 100%;
-  height: 600px;
+  width: 100vw;
+  height: 92.6vh;
   background-color: #000;
   overflow: hidden;
 }
