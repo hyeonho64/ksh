@@ -10,10 +10,10 @@
     <div id="enemies"></div>
 
     <!-- Scoreboard -->
-    <div id="scoreboard">Score: 0</div>
+    <div id="scoreboard">점수: 0</div>
 
     <!-- Lives -->
-    <div id="lives">Lives: 3</div>
+    <div id="lives">생명: 3</div>
   </div>
 </template>
 
@@ -74,7 +74,7 @@ export default {
           bullet.remove();
           enemy.remove();
           score += 10;
-          scoreboard.textContent = 'Score: ' + score;
+          scoreboard.textContent = '점수: ' + score;
         }
       });
     }
@@ -116,7 +116,7 @@ export default {
         if (enemyY > gameBoard.clientHeight) {
           enemy.remove();
           lives--;
-          livesDisplay.textContent = 'Lives: ' + lives;
+          livesDisplay.textContent = '생명: ' + lives;
 
           if (lives === 0) {
             endGame();
@@ -173,8 +173,7 @@ export default {
 #game-board {
   position: relative;
   width: 100vw;
-  height: 92.6vh;
-  background-color: #000;
+  height: 93vh;
   overflow: hidden;
 }
 
@@ -184,7 +183,7 @@ export default {
   left: calc(50% - 25px);
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: #22B8CF;
   z-index: 1;
 }
 
@@ -192,7 +191,7 @@ export default {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #FFF;
+  background-color: #000000;
   border-radius: 50%;
   z-index: 2;
 }
@@ -201,7 +200,7 @@ export default {
   position: absolute;
   width: 50px;
   height: 50px;
-  background-color: blue;
+  background-color: #66D9E8;
   z-index: 1;
 }
 
@@ -209,7 +208,9 @@ export default {
   position: absolute;
   top: 10px;
   left: 10px;
-  color: #FFF;
+  color: #000000;
+  font-weight: bold;
+  font-family: Pretendard-Regular;
   font-size: 24px;
   z-index: 2;
 }
@@ -218,7 +219,9 @@ export default {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: #FFF;
+  color: #000000;
+  font-weight: bold;
+  font-family: Pretendard-Regular;
   font-size: 24px;
   z-index: 2;
 }
