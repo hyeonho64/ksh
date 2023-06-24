@@ -1,10 +1,11 @@
 <template>
   <div class="app">
-    <nav class="bg-body-tertiary border-bottom mobile-disable">
+    <nav class="border-bottom">
       <div class="d-flex flex-wrap navbar">
-        <img src="../public/img/ksh_transparent.png" width="24" height="24" style="margin-right: 0.5rem;">
+        <a href="/">
+          <img src="../public/img/ksh_transparent.png" width="32" height="32" style="margin-right: 0.5rem;">
+        </a>
         <ul class="nav me-auto">
-          <li class="nav-item"><a href="/" class="nav-link link-body-emphasis px-2">홈</a></li>
           <li class="nav-item"><a href="/game" class="nav-link link-body-emphasis px-2">게임</a></li>
           <li class="nav-item"><a href="/about" class="nav-link link-body-emphasis px-2">소개</a></li>
           <li class="nav-item"><a href="/account" class="nav-link link-body-emphasis px-2">회원정보</a></li>
@@ -12,7 +13,7 @@
         <ul class="nav">
           <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">로그인</a></li>
           <li class="nav-item" style="margin-right: 0.3rem;"><a href="#" class="nav-link link-body-emphasis px-2">회원가입</a></li>
-          <li class="nav-item" style="border-radius: 0.5rem; background-color: #b0b0b0; font-weight: bold;">
+          <li class="nav-item" style="border-radius: 0.5rem; background-color: #22B8CF; font-weight: bold;">
             <a href="#" class="nav-link link-body-emphasis px-2">
               <div class="clock">
                 <div class="time">
@@ -29,45 +30,14 @@
         </ul>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mobile-show">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="../public/img/ksh_transparent.png" width="24" height="24" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon" style="width: 1.5rem; height: 1.5rem;"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
     <router-view/>
+  </div>
+  <div class="mobile">
+    <p align="middle">
+      <img src="../public/img/ksh_transparent.png" width="60" height="60" />
+      <br/>
+      <span style="color: #66D9E8;">ksh는 모바일에서</span> <span style="color: #22B8CF;">작동하지 않아요.</span>
+    </p>
   </div>
 </template>
 
@@ -80,24 +50,24 @@
 .navbar {
   padding-left: 1rem;
   padding-right: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-family: Pretendard-Regular;
 }
 
-.mobile-disable {
-  display: block;
-}
-
-.mobile-show {
+.mobile {
   display: none;
+  font-family: Pretendard-Regular;
+  font-weight: bold;
+  margin: 1rem;
+  font-size: 1.5rem;
 }
 
-@media screen and (max-width: 1400px) {
-  .mobile-disable {
+@media screen and (max-width: 1000px) {
+  .app {
     display: none;
   }
 
-  .mobile-show {
+  .mobile {
     display: block;
   }
 }
