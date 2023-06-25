@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b47daae-c79d-446d-8a03-602ad691d36d" name="Changes" comment="frontend와 backend 폴더 구분.">
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/css/app.89deab1e.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/img/KakaoTalk_20230621_171747618.0aee6ef5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/img/headshot/KakaoTalk_20230621_171747618.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/img/ksh_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/img/ksh_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/img/ksh_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/js/app.e2e2e791.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/js/app.e2e2e791.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/js/chunk-vendors.c4784861.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/js/chunk-vendors.c4784861.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/workbox-d6430d1c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/public/workbox-d6430d1c.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vue.config.js" afterDir="false" />
+    <list default="true" id="8b47daae-c79d-446d-8a03-602ad691d36d" name="Changes" comment="express, vue 연동으로 express 빌드 시에 vue 화면이 표시되도록 설정.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +95,7 @@
       <workItem from="1687525044646" duration="2018000" />
       <workItem from="1687589783164" duration="845000" />
       <workItem from="1687592020587" duration="996000" />
-      <workItem from="1687674854486" duration="766000" />
+      <workItem from="1687674854486" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="navbar 추가.">
       <created>1687261126192</created>
@@ -161,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687590501514</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="express, vue 연동으로 express 빌드 시에 vue 화면이 표시되도록 설정.">
+      <created>1687675739991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687675739991</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +171,7 @@
     <MESSAGE value="view 생성. route 수정. 디자인 개선. icon 추가." />
     <MESSAGE value="pwa 제거." />
     <MESSAGE value="컬러 변경." />
-    <option name="LAST_COMMIT_MESSAGE" value="컬러 변경." />
+    <MESSAGE value="express, vue 연동으로 express 빌드 시에 vue 화면이 표시되도록 설정." />
+    <option name="LAST_COMMIT_MESSAGE" value="express, vue 연동으로 express 빌드 시에 vue 화면이 표시되도록 설정." />
   </component>
 </project>
