@@ -1,8 +1,17 @@
 var createError = require('http-errors');
 var express = require('express');
+var router = express.Router();
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const history = require('connect-history-api-fallback');
+
+/* GET home page. */
+router.get('/t', function (req, res, next) {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
+
+  // res.render('index', { title: 'Express' }); // 기존 파일
+});
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -19,8 +28,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use(history()); // vue router 기능을 위해 추가
+app.use('/', indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

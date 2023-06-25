@@ -5,38 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b47daae-c79d-446d-8a03-602ad691d36d" name="Changes" comment="frontend와 backend 폴더 구분.">
-      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/headshot/KakaoTalk_20230621_171747618.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/ksh_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/ksh_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/ksh_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/AboutView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/AccountView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/GameView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/css/app.89deab1e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/img/KakaoTalk_20230621_171747618.0aee6ef5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/img/headshot/KakaoTalk_20230621_171747618.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/img/ksh_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/img/ksh_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/img/ksh_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/js/app.e2e2e791.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/js/app.e2e2e791.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/js/chunk-vendors.c4784861.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/js/chunk-vendors.c4784861.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/workbox-d6430d1c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/public/workbox-d6430d1c.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +80,7 @@
       <recent name="C:\Users\user\project\ksh\src\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\project\ksh" />
       <recent name="C:\Users\user\project\ksh\public\img\headshot" />
       <recent name="C:\Users\user\project\ksh\public\img" />
     </key>
@@ -125,6 +117,7 @@
       <workItem from="1687525044646" duration="2018000" />
       <workItem from="1687589783164" duration="845000" />
       <workItem from="1687592020587" duration="996000" />
+      <workItem from="1687674854486" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="navbar 추가.">
       <created>1687261126192</created>
