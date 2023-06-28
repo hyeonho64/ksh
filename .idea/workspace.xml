@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b47daae-c79d-446d-8a03-602ad691d36d" name="Changes" comment="build error 수정.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/AboutView.vue" afterDir="false" />
+    <list default="true" id="8b47daae-c79d-446d-8a03-602ad691d36d" name="Changes" comment="about 페이지 개선.&#10;기부 유도 toast 생성.">
       <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +100,7 @@
       <workItem from="1687939847679" duration="99000" />
       <workItem from="1687941948697" duration="6000" />
       <workItem from="1687942709222" duration="192000" />
-      <workItem from="1687953307374" duration="3751000" />
+      <workItem from="1687953307374" duration="4056000" />
     </task>
     <task id="LOCAL-00001" summary="navbar 추가.">
       <created>1687261126192</created>
@@ -162,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687942763577</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="about 페이지 개선.&#10;기부 유도 toast 생성.">
+      <option name="closed" value="true" />
+      <created>1687957141543</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687957141543</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +194,7 @@
     <MESSAGE value="컬러 변경." />
     <MESSAGE value="express, vue 연동으로 express 빌드 시에 vue 화면이 표시되도록 설정." />
     <MESSAGE value="build error 수정." />
-    <option name="LAST_COMMIT_MESSAGE" value="build error 수정." />
+    <MESSAGE value="about 페이지 개선.&#10;기부 유도 toast 생성." />
+    <option name="LAST_COMMIT_MESSAGE" value="about 페이지 개선.&#10;기부 유도 toast 생성." />
   </component>
 </project>

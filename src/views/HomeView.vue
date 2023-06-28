@@ -3,7 +3,7 @@
     <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="toast-header">
         <img src="../../public/img/ksh_transparent.png" width="20" height="20" class="rounded me-2" alt="...">
-        <strong class="me-auto" style="font-weight: bold;">KSH</strong>
+        <strong class="me-auto" style="font-weight: bold;">KSH 봇</strong>
         <small>방금</small>
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
