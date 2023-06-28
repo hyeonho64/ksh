@@ -5,79 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b47daae-c79d-446d-8a03-602ad691d36d" name="Changes" comment="express, vue 연동으로 express 빌드 시에 vue 화면이 표시되도록 설정.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/headshot/KakaoTalk_20230621_171747618.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ksh_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ksh_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ksh_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/AboutView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/AccountView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/GameView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bin/www" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/css/app.89deab1e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/img/KakaoTalk_20230621_171747618.0aee6ef5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/img/headshot/KakaoTalk_20230621_171747618.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/img/ksh_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/img/ksh_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/img/ksh_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/js/app.e2e2e791.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/js/app.e2e2e791.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/js/chunk-vendors.c4784861.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/js/chunk-vendors.c4784861.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/workbox-d6430d1c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/public/workbox-d6430d1c.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/error.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/index.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layout.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/font.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/img/headshot/KakaoTalk_20230621_171747618.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/img/ksh_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/img/ksh_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/img/ksh_transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/AboutView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/AccountView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/GameView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/HomeView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vue.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,24 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user/project/ksh/src/views",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "C:\\Users\\user\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\231.9161.29\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/project/ksh/src/views&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\user\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\231.9161.29\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\project\ksh\src\views" />
@@ -170,6 +99,8 @@
       <workItem from="1687592020587" duration="996000" />
       <workItem from="1687674854486" duration="962000" />
       <workItem from="1687939847679" duration="99000" />
+      <workItem from="1687941948697" duration="6000" />
+      <workItem from="1687942709222" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="navbar 추가.">
       <created>1687261126192</created>
