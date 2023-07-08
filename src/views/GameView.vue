@@ -246,7 +246,7 @@ export default {
 #game-board {
   position: relative;
   width: 100%;
-  height: 37.5rem;
+  height: 100vh;
   background-color: #000;
   overflow: hidden;
 }
