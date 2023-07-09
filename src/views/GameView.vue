@@ -47,7 +47,7 @@ export default {
     let score = 0;
     let lives = 3;
     let isGameRunning = false;
-    let isRapidFireEnabled =true;
+    let isRapidFireEnabled = true;
     let currentTheme = 'theme-light';
     let playerColor = '#ff4d4d';
     let enemyColor = '#007bff';
@@ -319,13 +319,33 @@ export default {
   --bullet-size: 1rem;
   --theme-color: #ffffff;
   --player-color: #ff4d4d;
-  --bullet-color: #ffffff;
   --enemy-color: #007bff;
   --game-over-color: #ff4d4d;
   --font-size: 2.4rem;
+  --bullet-color: #000000;
   --small-font-size: 1.4rem;
   --border-radius: 50%;
   --blur-filter: blur(2px);
+}
+
+.theme-light {
+  --theme-background: #ffffff;
+  --theme-color: #000000;
+  --player-color: #ff4d4d;
+  --bullet-color: #000000;
+  --enemy-color: #007bff;
+  --game-over-color: #ff4d4d;
+  --scoreboard-color: #000000;
+}
+
+.theme-dark {
+  --theme-background: #000000;
+  --theme-color: #ffffff;
+  --player-color: #ff4d4d;
+  --bullet-color: #ffffff;
+  --enemy-color: #007bff;
+  --game-over-color: #ff4d4d;
+  --scoreboard-color: #ffffff;
 }
 
 #title-screen {
@@ -393,6 +413,7 @@ export default {
   margin: 1rem;
   color: var(--scoreboard-color);
   font-size: var(--font-size);
+  font-family: Pretendard-Regular;
   z-index: 2;
 }
 
@@ -410,6 +431,7 @@ export default {
 
 button {
   font-size: var(--small-font-size);
+  font-family: Pretendard-Regular;
   margin-right: 1rem;
   padding: 0.5rem 1rem;
   background-color: var(--theme-color);
@@ -431,26 +453,6 @@ button {
   font-size: var(--font-size);
   color: var(--game-over-color);
   text-align: center;
-}
-
-.theme-light {
-  --theme-background: #ffffff;
-  --theme-color: #000000;
-  --player-color: #ff4d4d;
-  --bullet-color: #ffffff;
-  --enemy-color: #007bff;
-  --game-over-color: #ff4d4d;
-  --scoreboard-color: #000000;
-}
-
-.theme-dark {
-  --theme-background: #000000;
-  --theme-color: #ffffff;
-  --player-color: #ff4d4d;
-  --bullet-color: #ffffff;
-  --enemy-color: #007bff;
-  --game-over-color: #ff4d4d;
-  --scoreboard-color: #ffffff;
 }
 
 @media (max-width: 768px) {
