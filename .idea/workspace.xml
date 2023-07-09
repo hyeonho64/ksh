@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b47daae-c79d-446d-8a03-602ad691d36d" name="Changes" comment="게임 개선.">
+    <list default="true" id="8b47daae-c79d-446d-8a03-602ad691d36d" name="Changes" comment="bullet color 오류 수정.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/GameView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GameView.vue" afterDir="false" />
     </list>
@@ -108,7 +108,7 @@
       <workItem from="1688780766511" duration="671000" />
       <workItem from="1688781455872" duration="1146000" />
       <workItem from="1688784231776" duration="85000" />
-      <workItem from="1688863877332" duration="3639000" />
+      <workItem from="1688863877332" duration="4216000" />
     </task>
     <task id="LOCAL-00001" summary="navbar 추가.">
       <created>1687261126192</created>
@@ -199,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688864924247</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="bullet color 오류 수정.">
+      <option name="closed" value="true" />
+      <created>1688868607277</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688868607277</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +238,7 @@
     <MESSAGE value="toast 개선." />
     <MESSAGE value="clarity 추가.&#10;navbar 제거 및 sidebar 추가." />
     <MESSAGE value="게임 개선." />
-    <option name="LAST_COMMIT_MESSAGE" value="게임 개선." />
+    <MESSAGE value="bullet color 오류 수정." />
+    <option name="LAST_COMMIT_MESSAGE" value="bullet color 오류 수정." />
   </component>
 </project>
